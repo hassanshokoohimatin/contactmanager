@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22169949-0023-4249-8a07-bfdfad8caf72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/asus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/contact.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/ContactRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ContactRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613674976542</updated>
-      <workItem from="1613674978061" duration="1673000" />
+      <workItem from="1613674978061" duration="2054000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1613675280117</created>
@@ -91,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613676437125</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="service (ContactRepository) added">
+      <created>1613676769642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613676769642</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +122,7 @@
     <MESSAGE value="dependency added" />
     <MESSAGE value="package config" />
     <MESSAGE value="model (Contact) added" />
-    <option name="LAST_COMMIT_MESSAGE" value="model (Contact) added" />
+    <MESSAGE value="service (ContactRepository) added" />
+    <option name="LAST_COMMIT_MESSAGE" value="service (ContactRepository) added" />
   </component>
 </project>
