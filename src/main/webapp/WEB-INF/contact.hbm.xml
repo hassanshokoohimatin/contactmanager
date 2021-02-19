@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
-    <class name="model.Contact" table="user">
+    <class name="model.Contact" table="contact">
         <id name="id">
             <generator class="identity"></generator>
         </id>

@@ -16,11 +16,11 @@ public class Contact {
     private String lastName;
     @Column(name = "mobile")
     private String mobile;
-    @Column(name = "telephone")
+    @Column(name = "telephone", nullable = true)
     private String telephone;
-    @Column(name = "email")
+    @Column(name = "email", nullable = true)
     private String email;
-    @Column(name = "address")
+    @Column(name = "address", nullable = true)
     private String address;
 
     //Constructors, getters and setters
