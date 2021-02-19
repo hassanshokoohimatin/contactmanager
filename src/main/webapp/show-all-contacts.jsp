@@ -18,6 +18,7 @@
         <td>Telephone</td>
         <td>Email</td>
         <td>Address</td>
+        <td colspan="2">action</td>
     </tr>
     </thead>
     <tbody>
@@ -32,6 +33,12 @@
                 <td><%=contact.getTelephone()%></td>
                 <td><%=contact.getEmail()%></td>
                 <td><%=contact.getAddress()%></td>
+                <td>
+                    <a href="editAndDeleteContact?action=edit&contact_id=<%=contact.getId()%>">Edit</a>
+                </td>
+                <td>
+                    <a href="editAndDeleteContact?action=delete&contact_id=<%=contact.getId()%>">Delete</a>
+                </td>
             </tr>
     <%
         }
